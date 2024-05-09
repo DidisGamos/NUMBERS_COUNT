@@ -16,13 +16,13 @@ body{
     margin-top: 150px;
 }
 .number_1 p{
-    box-shadow: 0 3px orange;
+    box-shadow: 0 4px orange;
 }
 .number_2 p {
-    box-shadow: 0 3px rgb(0, 255, 145);
+    box-shadow: 0 4px rgb(0, 255, 145);
 }
 .number_3 p {
-    box-shadow: 0 3px violet;
+    box-shadow: 0 4px violet;
 }
 .numb-1, .numb-2, .numb-3{
     display: flex;
