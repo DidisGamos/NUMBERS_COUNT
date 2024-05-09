@@ -6,7 +6,7 @@ const interval1=setInterval(() => {
     if (num1 > 499) {
         clearInterval(interval1);
     }
-}, 100);
+}, 10 / 5);
 
 let num2 = 0;
 const second = document.getElementById('num2');
@@ -14,7 +14,7 @@ function numto17148() {
     num2++;
     second.textContent = num2;
     if (num2 < 17148) {
-        setTimeout(numto17148, 1);
+        setTimeout(numto17148, 10 / 5);
     }
 }
 numto17148();
@@ -27,4 +27,4 @@ const interval2=setInterval(() => {
     if (num3 > 1499) {
         clearInterval(interval2);
     }
-}, 10);
+}, 10 / 5);

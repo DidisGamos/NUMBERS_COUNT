@@ -6,12 +6,13 @@
 }
 
 body{
+}
+.number{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.number{
-    margin-top: 180px;
+    margin-top: 250px;
+    gap: 50px;
 }
 .number_1 p{
     box-shadow: 0 3px orange;
@@ -22,13 +23,14 @@ body{
 .number_3 p {
     box-shadow: 0 3px violet;
 }
-.number_2{
-    margin-top: 50px;
-}
-.number_3{
-    margin-top: 50px;
-}
-
 .numb-1, .numb-2, .numb-3{
     display: flex;
+}
+
+/* Reponsive */
+@media only screen and (max-width=600px) {
+    .number{
+        display: flex;
+        flex-direction: column;
+    }
 }
