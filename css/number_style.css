@@ -29,7 +29,7 @@ body{
 }
 
 /* Responsive */
-@media only screen and (max-width : 610px) {
+@media only screen and (max-width : 650px) {
     .number{
         flex-direction: column;
     }
